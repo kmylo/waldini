@@ -217,9 +217,9 @@
       <h5>Fotos de eventos, viajes y aventuras recientes</h5>
     </div>
   </section>
-  <div class="item-video col-xs-4b">
+  <div class="item-video col-xs-4b hidden">
     <div class=" embed-responsive embed-responsive-16by9">
-      <iframe width="378" height="212" frameborder="0" class="embed-responsive-item" allowfullscreen="" src="https://www.youtube.com/embed/qyD21yJvWRE?autoplay=1&amp;loop=1&amp;playlist=qyD21yJvWRE&amp;controls=0&amp;vq=hd720&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;volume=0&amp;color=white&amp;iv_load_policy=3"></iframe>
+      <iframe width="378" height="212" frameborder="0" class="embed-responsive-item" allowfullscreen="" src="https://www.youtubeo.com/embed/qyD21yJvWRE?autoplay=1&amp;loop=1&amp;playlist=qyD21yJvWRE&amp;controls=0&amp;vq=hd720&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;volume=0&amp;color=white&amp;iv_load_policy=3"></iframe>
     </div>
   </div>
 <!-- Portfolio Section
@@ -751,7 +751,7 @@
         <div class="about-text">
           <p class="large">Santiago, Chile</p>
           <!-- Su address -->
-          <p class="small">www.waldini.tk</p>
+          <p class="small">www.elwaldini.cl</p>
           <!-- Su website -->
           <br>
           <p class="large">¡Es mejor reir que llorar!</p>
@@ -783,7 +783,7 @@
         <br>
         <p>queespayaso@gmail.com</p>
         <!-- Su email add here -->
-        <p>www.waldini.tk</p>
+        <p>www.elwaldini.cl</p>
         <!-- Any other information here -->
       </div>
       <!-- End container -->
@@ -830,10 +830,10 @@
           <div class="clearfix"></div>
           <div class="col-lg-12 text-center">
             <div id="success"></div>
-            <button type="submit" data-toggle="modal" data-target="#openmodal" class="btn btn-send">Enviar Mensaje</button>
+            <button type="submit" data-toggle2="modal" data-target2="#openmodal" class="btn btn-send">Enviar Mensaje</button>
             <!-- Send button -->
-            <!-- <input type="hidden" name="_next" value="http://www.elwaldini.cl/thanksmail.html" /> -->
-            <input type="hidden" name="_next" value="http://www.elwaldini.cl/#openmodal" />
+            <input type="hidden" name="_next" value="http://www.elwaldini.cl/thanksmail.html" />
+            <!-- <input type="hidden" name="_next" value="http://www.elwaldini.cl/#openmodal" /> -->
             <input type="text" name="_gotcha" style="display:none" />
             
             <!-- modal -->
@@ -942,8 +942,13 @@
   <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <!-- <script type="text/javascript" src="js/contact.js"></script>
 -->
-<script type="text/javascript" src="js/formspree02.js"></script>
+<script type="text/javascript" src="js/formspree03.js"></script>
 <!-- My Custom Plugin JavaScript -->
 <script type="text/javascript" src="js/main.js"></script>
+
+<script>
+  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
+
 </body>
 </html>
