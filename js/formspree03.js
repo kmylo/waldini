@@ -6,7 +6,7 @@ $contactForm.submit(function(e) {
 	var defaultSubmitText = $submit.val();
 
 	$.ajax({
-		url: '//formspree.io/your@email.com',
+		url: '//formspree.io/kmylo6@gmail.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
